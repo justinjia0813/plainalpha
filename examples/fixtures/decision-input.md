@@ -1,4 +1,4 @@
-使用指定 plain-alpha Skill，基于下列虚构资料写一份一页以内的项目投资讨论稿。保留关键数字、来源与未知；不联网。结果保存 <evaluation-output>/decision-response.md。
+使用指定 plainalpha Skill，基于下列虚构资料写一份一页以内的项目投资讨论稿。保留关键数字、来源与未知；不联网。结果保存 <evaluation-output>/decision-response.md。
 
 研究日2026-11-05。资料如下：
 S1，2024审计摘要第2页：公司营业收入3,200万元，应收账款1,400万元。

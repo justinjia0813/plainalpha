@@ -1,6 +1,6 @@
 interface:
-  display_name: "投点人话 · PlainAlpha"
+  display_name: "PlainAlpha"
   short_description: "学习专业投资人的自然表达，减少AI套话和多余术语，保留判断与分寸"
-  default_prompt: "使用 $plain-alpha 将已有材料写成自然、直接、有分寸的投研文字，减少AI套话与多余术语，保留事实和判断条件。"
+  default_prompt: "使用 $plainalpha 将已有材料写成自然、直接、有分寸的投研文字，减少AI套话与多余术语，保留事实和判断条件。"
 policy:
   allow_implicit_invocation: true

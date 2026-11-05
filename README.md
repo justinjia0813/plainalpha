@@ -1,8 +1,8 @@
-# 投点人话 · PlainAlpha
+# PlainAlpha
 
 把投研报告写得自然、专业、有判断。让读者看清公司在做什么、客户为什么买、公司能赚多少钱，以及哪些事还没弄清。
 
-**投点人话**，就是把研究结果说清楚。**PlainAlpha**，取 plain 的直白和 alpha 的投资语境；Skill 调用名是 `plain-alpha`。
+**PlainAlpha**，取 plain 的直白和 alpha 的投资语境；Skill 调用名是 `plainalpha`。
 
 它适合处理这样的句子：
 
@@ -43,42 +43,42 @@
 **Codex**
 
 ```sh
-git clone https://github.com/justinjia0813/plain-alpha.git ~/.codex/skills/plain-alpha
+git clone https://github.com/justinjia0813/plainalpha.git ~/.codex/skills/plainalpha
 ```
 
 **Claude Code**
 
 ```sh
-git clone https://github.com/justinjia0813/plain-alpha.git ~/.claude/skills/plain-alpha
+git clone https://github.com/justinjia0813/plainalpha.git ~/.claude/skills/plainalpha
 ```
 
-安装后新开一次会话，确认客户端能找到 `plain-alpha`。两个位置供各自客户端使用，按需选择。
+安装后新开一次会话，确认客户端能找到 `plainalpha`。两个位置供各自客户端使用，按需选择。
 
 ## 直接调用
 
 在 Codex 中，显式调用这个 Skill，并附上原稿或资料：
 
 ```text
-$plain-alpha 把这份研究改为两页投资讨论稿，保留来源、数字和未知项。
+$plainalpha 把这份研究改为两页投资讨论稿，保留来源、数字和未知项。
 ```
 
 ```text
-$plain-alpha 将本周项目进展写成 300 字汇报，说明变化、影响和下一步。
+$plainalpha 将本周项目进展写成 300 字汇报，说明变化、影响和下一步。
 ```
 
 已有分析框架或模板时，一并提供。只想改语言，可以直接说明“保持结构和结论，只改表达”。
 
 ### 与 mathink 配合
 
-`mathink` 负责材料行业分析，`plain-alpha` 将分析写成投资读者容易理解的报告。研究结果应带上来源、口径、模型假设和未知项，表达稿再返回原分析核对。
+`mathink` 负责材料行业分析，`plainalpha` 将分析写成投资读者容易理解的报告。研究结果应带上来源、口径、模型假设和未知项，表达稿再返回原分析核对。
 
 下例适用于已另行安装 `mathink` 的 Codex：
 
 ```text
-$mathink $plain-alpha 分析 CMP 抛光液行业，先完成材料研究，再按八章写成合伙人可读的报告。
+$mathink $plainalpha 分析 CMP 抛光液行业，先完成材料研究，再按八章写成合伙人可读的报告。
 ```
 
-本仓库只提供 `plain-alpha`。没有 `mathink` 时，也可以直接处理你已有的研究材料。
+本仓库只提供 `plainalpha`。没有 `mathink` 时，也可以直接处理你已有的研究材料。
 
 ## 先看样本
 

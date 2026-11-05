@@ -1,4 +1,4 @@
-使用指定 mathink 与 plain-alpha Skill，仅依据以下虚构资料，写一份面向合伙人的简短八章材料行业报告。保留来源定位，不联网。不要为缺失项补外部数字。结果保存到 <evaluation-output>/materials-response.md。
+使用指定 mathink 与 plainalpha Skill，仅依据以下虚构资料，写一份面向合伙人的简短八章材料行业报告。保留来源定位，不联网。不要为缺失项补外部数字。结果保存到 <evaluation-output>/materials-response.md。
 
 日期2026-11-05。研究范围：中国设备H用X材料，2025年未税人民币采购口径；展望2027—2031年。
 
